@@ -89,6 +89,9 @@ It's useful becuase a templating engine takes a bunch of static HTML files, fill
 
 Twilio SendGrid offers a Web API that allows customers to retrieve information about their accounts such as statistics, bounces, spam reports, unsubscribes, and more. 
 
+![image](https://user-images.githubusercontent.com/61279365/123522220-924ccf80-d6ee-11eb-8125-c43846501f34.png)
+
+
 - Deliverability: SendGrid maintains an excellent reputation with common email clients, leading to higher deliverability rates, and less chance of being caught in spam filters.
 - Throughput: SendGrid handles large email volume with ease. SendGrid’s simple plans let you send “around 12,000 emails per month” for free.
 - Analytics: You can act like a tech-mogul, shouting out figures like your “click-through rates” and “A/B Test Results” using SendGrids’s beautiful dashboard.
