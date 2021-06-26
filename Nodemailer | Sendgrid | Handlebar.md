@@ -5,8 +5,9 @@
 
 
 
-Express Handlebars plugin for Nodemailer - 
-[nodemailer-express-handlebar](https://www.npmjs.com/package/nodemailer-express-handlebars)
+[nodemailer-express-handlebar](https://www.npmjs.com/package/nodemailer-express-handlebars) - Express Handlebars plugin for Nodemailer
+
+[nodemailer-sendgrid-transport](https://www.npmjs.com/package/nodemailer-sendgrid-transport) - This module is a transport plugin for Nodemailer that makes it possible to send through SendGrid's Web API!
 
   
 ## Installation 
