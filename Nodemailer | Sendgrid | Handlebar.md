@@ -3,8 +3,7 @@
 
 ## Documentation
 
-
-[nodemailer] (https://www.npmjs.com/package/nodemailer） -  Send email with node.js with ease
+[nodemailer](https://www.npmjs.com/package/nodemailer)-  Send email with node.js with ease
 
 [nodemailer-express-handlebar](https://www.npmjs.com/package/nodemailer-express-handlebars) - Express Handlebars plugin for Nodemailer
 
