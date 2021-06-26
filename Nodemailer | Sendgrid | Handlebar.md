@@ -1,4 +1,4 @@
-# Notes-Email-Service
+# Notes | Email-Service
 
 
 ## Documentation
