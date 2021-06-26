@@ -76,10 +76,9 @@ const options = {
 
 Handlebars is popular for both back-end and front-end templating
 
-#### Question 2
+#### Why are we using sendgrid?
 
-Answer 2
-
+Twilio SendGrid offers a Web API that allows customers to retrieve information about their accounts such as statistics, bounces, spam reports, unsubscribes, and more. 
   
 ## Related
 
