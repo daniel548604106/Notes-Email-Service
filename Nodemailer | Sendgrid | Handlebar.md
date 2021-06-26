@@ -37,6 +37,7 @@ const options = {
   }
 };
 
+
   const hbsOptions = {
       viewEngine: {
         extname: '.handlebars',
@@ -45,7 +46,8 @@ const options = {
       },
       viewPath: path.resolve(__dirname, '../views/')
     };
-
+    
+//send mail with options
     const mailOptions = {
       to: email,
       from: process.env.EMAIL,
@@ -58,8 +60,11 @@ const options = {
     };
 
     const transporter = nodemailer.createTransport(sendGridTransport(options));
+    
+//attach the plugin to the nodemailer transporter
 
     transporter.use('compile', hbs(hbsOptions));
+    
     transporter.sendMail(mailOptions, (err, info) => {
       err && console.log(err);
     });
