@@ -91,5 +91,7 @@ Twilio SendGrid offers a Web API that allows customers to retrieve information a
 Here are some related articles
 
 [Guide-to-handlebars-templating-engine-for-node](https://stackabuse.com/guide-to-handlebars-templating-engine-for-node)
+[Emails with Nodemailer & SendGrid](https://medium.com/code-well-live-forever/emails-with-nodemailer-sendgrid-c98cd37c8e03)
+
 
   
