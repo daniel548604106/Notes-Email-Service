@@ -31,15 +31,7 @@ const sendGridTransport = require('nodemailer-sendgrid-transport');
 const hbs = require('nodemailer-express-handlebars');
 
 
-
-const options = {
-  auth: {
-    api_key: process.env.SENDGRID_KEY
-  }
-};
-
-
-  const hbsOptions = {
+const hbsOptions = {
       viewEngine: {
         extname: '.handlebars',
         layoutsDir: path.resolve(__dirname, '../views/'),
@@ -60,15 +52,26 @@ const options = {
       }
     };
 
-    const transporter = nodemailer.createTransport(sendGridTransport(options));
+// Configure Nodemailer SendGrid Transporter
+const transporter = nodemailer.createTransport(
+  sendgridTransport({
+    auth: {
+     api_key: process.env.SENDGRID_KEY // SG password
+    },
+  })
+);
     
 //attach the plugin to the nodemailer transporter
-
-    transporter.use('compile', hbs(hbsOptions));
+transporter.use('compile', hbs(hbsOptions));
     
-    transporter.sendMail(mailOptions, (err, info) => {
-      err && console.log(err);
-    });
+// Send Email
+transporter.sendEmail(options, (err, resp) => {
+  if (err) {
+    // handle error
+  } else {
+    // handle success
+  }
+});
 ```
 ## FAQ
 
