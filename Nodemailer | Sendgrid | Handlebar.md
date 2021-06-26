@@ -70,3 +70,21 @@ const options = {
       err && console.log(err);
     });
 ```
+## FAQ
+
+#### What is handlebar and how is it useful?
+
+Handlebars is popular for both back-end and front-end templating
+
+#### Question 2
+
+Answer 2
+
+  
+## Related
+
+Here are some related articles
+
+[Guide-to-handlebars-templating-engine-for-node](https://stackabuse.com/guide-to-handlebars-templating-engine-for-node)
+
+  
