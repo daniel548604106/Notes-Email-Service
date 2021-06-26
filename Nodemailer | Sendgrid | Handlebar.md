@@ -30,15 +30,16 @@ const nodemailer = require('nodemailer');
 const sendGridTransport = require('nodemailer-sendgrid-transport');
 const hbs = require('nodemailer-express-handlebars');
 
+// Handlebars Options
 
 const hbsOptions = {
-      viewEngine: {
-        extname: '.handlebars',
-        layoutsDir: path.resolve(__dirname, '../views/'),
-        defaultLayout: 'resetPassword'
-      },
-      viewPath: path.resolve(__dirname, '../views/')
-    };
+   viewEngine: {
+    extname: '.handlebars',
+    layoutsDir: path.resolve(__dirname, '../views/'),
+    defaultLayout: 'resetPassword'
+  },
+  viewPath: path.resolve(__dirname, '../views/')
+};
 
 // Create Email Options
 
