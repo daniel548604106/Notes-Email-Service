@@ -41,6 +41,7 @@ const hbsOptions = {
     };
     
 //send mail with options
+
     const mailOptions = {
       to: email,
       from: process.env.EMAIL,
@@ -53,6 +54,7 @@ const hbsOptions = {
     };
 
 // Configure Nodemailer SendGrid Transporter
+
 const transporter = nodemailer.createTransport(
   sendgridTransport({
     auth: {
@@ -62,9 +64,11 @@ const transporter = nodemailer.createTransport(
 );
     
 //attach the plugin to the nodemailer transporter
+
 transporter.use('compile', hbs(hbsOptions));
     
 // Send Email
+
 transporter.sendEmail(options, (err, resp) => {
   if (err) {
     // handle error
