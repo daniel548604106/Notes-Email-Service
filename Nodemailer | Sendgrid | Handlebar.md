@@ -5,7 +5,7 @@
 
 
 
-Express Handlebars plugin for Nodemailer
+Express Handlebars plugin for Nodemailer - 
 [nodemailer-express-handlebar](https://www.npmjs.com/package/nodemailer-express-handlebars)
 
   
