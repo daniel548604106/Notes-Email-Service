@@ -83,6 +83,7 @@ transporter.sendEmail(options, (err, resp) => {
 #### What is handlebar and how is it useful?
 
 Handlebars is one of the most used templating engines for web applications “competing” with other well-known ones like Mustache js, Pug, EJS and others. It’s especially used on the server side along with the express js framework.
+It's useful becuase a templating engine takes a bunch of static HTML files, fills them with the necessary data on the server side then sends them as any ordinary HTML file to the client.
 
 #### Why are we using sendgrid?
 
