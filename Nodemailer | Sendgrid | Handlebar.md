@@ -39,19 +39,19 @@ const hbsOptions = {
       },
       viewPath: path.resolve(__dirname, '../views/')
     };
-    
-//send mail with options
 
-    const mailOptions = {
-      to: email,
-      from: process.env.EMAIL,
-      subject,
-      template: 'resetPassword',
-      context: {
-        name,
-        href
-      }
-    };
+// Create Email Options
+
+const options = {
+  to: <to_email@domain.com>,
+  from: <from_email@domain.com>, 
+  subject: <email_subject>,
+  template: 'resetPassword',
+  context: {
+     name,
+     href
+  }         
+};
 
 // Configure Nodemailer SendGrid Transporter
 
