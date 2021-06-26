@@ -100,6 +100,6 @@ Here are some related articles
 
 - [Guide-to-handlebars-templating-engine-for-node](https://stackabuse.com/guide-to-handlebars-templating-engine-for-node)
 - [Emails with Nodemailer & SendGrid](https://medium.com/code-well-live-forever/emails-with-nodemailer-sendgrid-c98cd37c8e03)
-
+- [A-guide-into-using-handlebars-with-your-express-js-application](https://waelyasmina.medium.com/a-guide-into-using-handlebars-with-your-express-js-application-22b944443b65)
 
   
